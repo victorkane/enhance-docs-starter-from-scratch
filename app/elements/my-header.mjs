@@ -1,4 +1,8 @@
-export default function MyHeader({ html }) {
+export default function MyHeader({ html, state = {} }) {
+  const { attrs = {}, store = {} } = state
+  console.log("state", state)
+  console.log("attrs", attrs)
+  console.log("store", store)
   return html`
     <header>
       <h1>Header</h1>
