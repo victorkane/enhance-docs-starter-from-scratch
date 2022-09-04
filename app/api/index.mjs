@@ -1,7 +1,7 @@
 export async function get(req) {
   return {
     json: {
-      message: "Hello from your api route!",
+      message: "Hello there from your api route!",
     },
   }
 }

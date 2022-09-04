@@ -1,5 +1,5 @@
 export default function Head(req = {}) {
-  console.log("req", req)
+  // console.log("req", req)
   const { path } = req
   const title = `My app — ${path}`
   return `
