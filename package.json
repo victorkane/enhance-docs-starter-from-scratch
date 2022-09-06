@@ -8,7 +8,8 @@
     "eslint": "latest"
   },
   "dependencies": {
-    "@enhance/arc-plugin-enhance": "latest"
+    "@enhance/arc-plugin-enhance": "latest",
+    "node-fetch": "^3.2.10"
   },
   "eslintConfig": {
     "env": {

@@ -8,6 +8,7 @@ export default function MyHeader({ html, state = {} }) {
       <h1>header</h1>
       <nav>
         <a href=/>home</a>
+        <a href=/product>product</a>
         <a href=/about>about</a>
       </nav>
     </header>
