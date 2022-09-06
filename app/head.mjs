@@ -3,7 +3,7 @@ export default function Head(req = {}) {
   const { path } = req
   const title = `My app — ${path}`
   return `
-    <html lang="es" class="scroll-smooth">
+    <html lang="en" class="scroll-smooth">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
